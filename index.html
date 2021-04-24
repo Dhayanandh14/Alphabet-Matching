@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<style>
+		body{
+			height: 100vh;
+		}
+		input[type="text"]{
+			width: 200px;
+			height: 30px;
+			font-size: 20px;	
+		}
+		button{
+			width: 100px;
+			height: 35px;	
+		}
+		div{
+			display: flex;
+			justify-content:center;
+			margin-top: 120px;
+		}
+		#count{
+		    font-size: 35px;
+			position: relative;
+			right: 200px;
+			margin-top: 60px;
+		}
+	</style>
+	<div>
+		<input type="text" name="alphabets" id="alphabets">
+		<button id="calculate" onclick=cal()>Clear</button>
+		
+		<p id="count"></p>
+	</div>
+	<script src="./main.js"></script>
+</body>
+</html>
